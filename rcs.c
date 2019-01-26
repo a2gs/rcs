@@ -7,8 +7,8 @@
  *
  */
 
-/* <file name>
- * <File description>
+/* rcs.c
+ * Remote Client Shell: duplicate STDIN_FILENO, STDOUT_FILENO, and STDERR_FILENO to a process related to a socket.
  *
  *  Who     | When       | What
  *  --------+------------+----------------------------
