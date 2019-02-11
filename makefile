@@ -1,5 +1,10 @@
+CC = gcc
+CFLAGS = -g -Wall -std=c11 -D_XOPEN_SOURCE=700
+
+RM = rm -rf
+
 all: clean
-	cc -o rcs rcs.c -Wall -g
+	$(CC) -o rcs rcs.c $(CFLAGS)
 
 clean:
-	-rm rcs
+	-$(RM) rcs
