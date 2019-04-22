@@ -3,7 +3,7 @@
  *
  * Remote Client Shell
  *
- * Public Domain
+ * MIT License
  *
  */
 
